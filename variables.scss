@@ -1,0 +1,102 @@
+/***  COLORS PALLETS  ***/
+$data-annotation-primary-color: #a72037;
+$data-annotation-faded-jade: #448087;
+$data-annotation-dusty-gray: #9a9a9a;
+$data-annotation-fuchsia-blue: #8651c6;
+$data-annotation-endeaavour: #005eac;
+$data-annotation-zanah: #ddf0df;
+$data-annotation-pale-sky: #6a707e;
+$data-annotation-twilight-blue: #f4fcff;
+$data-annotation-emperor: #505050;
+$data-annotation-Tundora: #4c4c4c;
+// BLACK SHADES
+$neutral-black:#000000;
+$black-shark: #1d1d1f;
+$data-annotation-black-1: #212121;
+$data-annotation-black-2: #424242;
+$data-annotation-black-3: #0f0f0f;
+$data-annotation-black-4: #374151;
+$data-annotation-black-5: #192a3e;
+$data-annotation-black-6: #535353;
+$data-annotation-black-7: #6d6d6d;
+$data-annotation-black-8: #343434;
+$data-annotation-black-9: #575656;
+$data-annotation-black-10: #777777;
+$data-annotation-black-11: #3f3f3f;
+$data-annotation-Jumbo: #808187;
+$data-annotations-th:#F0F0F0;
+
+// WHITE SHADES
+$neutral-white: #ffffff;
+$data-annotation-white-1: #f0f0f0;
+$data-annotation-white-2: #ecf8ff;
+$data-annotation-white-3: #eeeeee;
+$data-annotation-white-4: #bab9bd;
+$data-annotation-white-5: #f9f9f9;
+$data-annotation-white-6: #e8eaed;
+$data-annotation-white-7: #d9d9d9;
+$data-annotation-white-8: #e5e5e5;
+$data-annotation-white-9: #fbfbfb;
+$data-annotation-white-10: #fafafa;
+
+// GRAY SHADES
+$data-annotation-gray-1: #aaaaaa;
+$data-annotation-gray-2: #bbbbbb;
+$data-annotation-gray-3: #cccccc;
+$data-annotation-gray-4: #dddddd;
+$data-annotation-gray-5: #fafbfd;
+$data-annotation-gray-6: #bebebe;
+$data-annotation-gray-7: #e6e6e6;
+$data-annotation-gray-8: #a3a3a3;
+$data-annotation-dove-gray: #707070;
+$data-annotation-athens-gray: #ebeff2;
+
+// BLUE SHADES
+$neutral-blue: blue;
+$neutral-skyblue: skyblue;
+$data-annotation-matisse: #2467aa;
+$data-annotation-dodgerblue1: #1ba0f2;
+$data-annotation-dodgerblue2: #2dc4ff;
+$data-annotation-azure-radiance: #007bff;
+
+// RED SHADES
+$neutral-red: red;
+$data-annotation-crimson: #e21212;
+$data-annotation-sangria: #970303;
+$data-annotation-cherrywood: #641321;
+$data-annotation-mexican-red: #a81e30;
+$data-annotation-red-punch: #dc3545;
+$data-annotation-Blush: #bb5365;
+
+// ORANGE SHADES
+$neutral-orange: orange;
+$data-annotation-caramel: #ffdbb1;
+$data-annotation-tree-poppy: #f7931e;
+$data-annotation-chelsea-gem: #aa5d03;
+$data-annotation-light-shade-orange: #f9d7bf;
+
+// GREEN SHADES
+$neutral-green: green;
+$data-annotation-surf: #b6d7b8;
+$data-annotation-fern: #59bb5e;
+$data-annotation-parsley: #16601a;
+$data-annotation-sea-green: #2e7d32;
+$data-annotation-lochinvar: #339c7d;
+
+$neutral-purple: purple;
+::ng-deep .custom-style {
+  background-color: $data-annotation-sea-green;
+  color: $neutral-white;
+}
+
+::ng-deep .delete {
+  text-align: center;
+  background-color: red;
+  color: $neutral-white;
+}
+
+// FUNCTIONS
+@mixin colorAndBackground($color: unset, $background: unset) {
+  background-color: $background;
+  color: $color;
+}
